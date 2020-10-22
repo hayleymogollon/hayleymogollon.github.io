@@ -1,0 +1,202 @@
+body {
+    background-color:rgb(77, 15, 134);
+  }
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+h3 {
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 80px;
+  font-size: 30px;
+}
+h4 {
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a:visited {
+    color:whitesmoke;
+    text-decoration: none;
+    background-color: none;
+    margin-bottom: 10px;
+}
+a:link {
+  color:whitesmoke;
+  text-decoration: none;
+  background-color: none;
+  margin-bottom: 10px;
+}
+#flexbox {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#flexbox1 {
+  display: flex;
+  border: 10px solid white; 
+  justify-content: center;
+  height: 900px;
+  padding: 20px;
+}
+#flexbox2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#flexbox3 {
+  display: flex;
+  border: 10px solid white; 
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+#flexbox4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+#flexbox5 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  align-items: flex-end;
+}
+#flexbox6 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: flex-end;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 70px;
+  }
+  
+.grid-container > div {
+    background-color:black;
+    text-align: center;
+    padding: 100px ;
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 700px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: auto;
+    }
+  }
+.grid-item {
+    background-color:white;
+    color:white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  .one {
+    list-style-type: circle;
+    color: white;
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    font-size: 150%;
+    margin-left: 170px;
+  }
+  p.solid {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    font-size: 150%;
+    color: white;
+    height: 500px;
+    width:300px;
+  }
+ img {
+   padding: 20px;
+  }
+  .button1 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .button {
+    background-color:rgb(77, 15, 134);
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    font-family: serif;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+  
+  }
+  .bg {
+    background-image: url("endimage.jpg");
+    opacity: 0.5;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+  }
+  @keyframes example {
+    from {opacity:0.5;}
+    to {opacity:0.2;}
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg2 {
+    background-image: url("introimage.jpg");
+    opacity: 0.5;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: intro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+  }
+  @keyframes intro {
+    from {opacity:0.5;}
+    to {opacity:0.2;}
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
