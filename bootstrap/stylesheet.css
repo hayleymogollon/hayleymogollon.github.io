@@ -1,0 +1,25 @@
+#about {
+    padding-top: 60px;
+    padding-left: 40px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+#videos {
+    padding-left: 50px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+#aboutdescription {
+    padding: 5px 70px;
+    padding-bottom: 70px;
+    padding-right: 300px;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
