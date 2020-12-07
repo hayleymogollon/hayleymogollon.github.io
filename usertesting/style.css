@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+    
+}
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+    color: rgb(212, 48, 48);
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav li span {
+    padding-left: 5px;
+} 
+li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(240, 217, 14);
+    border-radius: 50px;
+
+}
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.cart a {
+    background-color: rgb(240, 217, 14);
+    border-radius: 50px;
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.containerlucas {
+    display: flex;
+   justify-content: flex-start;
+    margin-left: 200px;
+    flex-wrap: wrap ;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.lucastext {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+}
+h1{
+    margin-top: 20px;
+}
+.image {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+#add-cart {
+    position: absolute;
+    width: 100px;
+    background-color: darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* cart page */
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+.products-container ion-icon{
+    font-size: 25px;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightblue;
+    margin: 0 auto;
+}
+.product-title {
+    width: 45%;
+}
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center; 
+}
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+}
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center; 
+}
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightblue;
+}
+.basketTotalContainer {
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketToralTitle {
+    width: 30%;
+}
+.basketTotal {
+    width: 10px;
+}
+@media(max-width: 500px) {
+    nav h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;;
+    }
+
+    .sm-hide {
+        display: none;;
+    }
+
+    .products,
+    .product-header {
+        justify-content: center;
+    }
+
+    .basketTotalContainer {
+        padding-right: 8%;
+    }
+}
