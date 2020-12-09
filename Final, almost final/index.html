@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+    <script src="main.js" defer></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background-color: #e60e0e;">
+        <a class="navbar-brand" href="#">ChuchiMex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#landingpage">Shop<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipies.html">Recipes</a>
+            </li>
+            <li class="cart">
+                <a class="nav-link" href="cart.html"><ion-icon name="cart"></ion-icon>Cart<span>0</span></a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/banderademexico.jpg" width="30" height="30" alt=""></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#"><img src="images/banderaestadosunidos.jpg" width="30" height="30" alt="">English</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</head>
+<body>
+    <div id="landingpagecover">
+        <div id="landingpage">
+            <h2>ChuchiMex</h2>
+            <h4>The Best of Mexico's Candy</h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <div class="image">
+                <img src="images/lucas.jpg" alt="lucas" width="300" height="300"></a>
+                    <div class="overlay">
+                        <div class="text">A Best-Seller, loved by many because of the spicy chili powder included in container that can be mixed with the strawberry flavored lollipop at any time. No more chili powder? Shake well and good as new!</div>
+                    </div>
+            </div>
+            <div class="Title">
+                    <h3>Lucas Muecas</h3>
+                    <h3>$1</h3>  
+                    <a class="add-cart cart1" href="#">Add to Cart</a>
+                    <input type="hidden" value="1" />
+            </div>
+        </div>
+        
+        
+        <div class="item">
+            <div class="image">
+                <img src="images/skwinkle.jpg" alt="skwinkle" width="300" height="300"></a>
+                    <div class="overlay2">
+                        <div class="text">A Best-Seller, many love the consistency of a gummy like candy but with tamarind flavored juice in the inside. Candy is sprinkled with spicy chilly powder and comes in long thin pieces.</div>
+                </div>
+            </div>
+            <div class="Title">
+                <h3>Skwinles Rellenos</h3>
+                <h3>$2</h3>
+                <a class="add-cart cart2" href="#">Add to Cart</a>
+                <input type="hidden" value="2" />
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/pelon.jpg" alt="pelon" width="300" height="300">
+                    <div class="overlay3">
+                        <div class="text">Tamarind flavored candy that is eatable when pressing the bottom of the candy. Candy resembles a character’s hair and when eaten you have left the character bald, or “Pelon.”</div>
+                    </div>
+            </div>
+            <div class="Title">
+                <h3>Pelon</h3>
+                <h3>$1</h3>   
+                <a class="add-cart cart3" href="#">Add to Cart</a>
+                <input type="hidden" value="1" />     
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/Rockaleta.png" alt="Rockaleta" width="300" height="300">
+                <div class="overlay4">
+                    <div class="text">Lollipop that starts out spicy, then turns sweet, then goes back to spicy again. When almost done with lollipop, flavored bubble gum appears!</div>
+                </div>
+            </div>
+            <div class="Title">
+                <h3>Rockaleta</h3>
+                <h3>$1</h3>   
+                <a class="add-cart cart4" href="#">Add to Cart</a>
+                <input type="hidden" value="1" />
+            </div>  
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/picafresas.jpg" alt="picafresas" width="300" height="300">
+                <div class="overlay5">
+                    <div class="text">Gummy like candies that at first are somewhat spicy, then start getting sweet! Tastes like a strawberry with chili. Great to share with friends! </div>
+                </div>
+            </div>
+            <div class="Title">
+                <h3>Picafresas</h3>
+                <h3>$5</h3>
+                <a class="add-cart cart5" href="#">Add to Cart</a>
+                <input type="hidden" value="1" />
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/paletavero.png" alt="paletavero" width="300" height="300">
+                <div class="overlay6">
+                    <div class="text">Bag contains 6 delicious lollipops shaped like a corn yet sweet flavored. Flavor is strawberry on the inside, but on outside the lollipop is covered with a mild spicy chili powder.</div>
+                </div>
+            </div>
+            <div class="Title">
+                <h3>Paletas Vero</h3>
+                <h3>$2</h3>
+                <a class="add-cart cart6" href="#">Add to Cart</a>
+                <input type="hidden" value="1" />
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/pulparindo.png" alt="pulparindo" width="300" height="300">
+                <div class="overlay7">
+                    <div class="text">A package of delicious flavored tamarind bars, with a unique sour yet sweet taste that includes a combination of salt and chili.</div>
+                </div>
+            </div>
+            <div class="Title">
+                <h3>Pulparindo</h3>
+                <h3>$3</h3>
+                <a class="add-cart cart7" href="#">Add to Cart</a>
+                <input type="hidden" value="1" />
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/rellerindos.jpg" alt="rellerindos" width="300" height="300">
+                <div class="overlay8">
+                    <div class="text">A Best-Seller because of the unique and delicious flavor! Shaped like a tamarind, the flavor is sour and in the inside contains a tamarind sauce.</div>
+                </div>
+            </div>
+            <div class="Title">
+                <h3>Rellerindos</h3>
+                <h3>$2</h3>
+                <a class="add-cart cart8" href="#">Add to Cart</a>
+                <input type="hidden" value="1" />
+            </div>
+        </div>
+
+    </div>
+
+<p id="about">About Us</p>
+<div id="container">
+<p id="ChuchiMex">ChuchiMex</p>  
+    <p id="aboutdescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+    
+</html>
